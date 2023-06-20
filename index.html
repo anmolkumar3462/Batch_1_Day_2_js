@@ -6,12 +6,35 @@
         <title>Batch_1_Day_2</title>
         <link rel="stylesheet" href="/css/style.css">
         <style>
-            
+
         </style>
     </head>
     <body>
+        <div id="root">
+            <h1>Hello Everyone</h1>
+        </div>
+        <script>
+            document.getElementById("root").innerHTML="<h1>Hello Everyone ! Good Morning this is Day 2 of Batch_1 Js tutorials </h1>";
+        </script>
         <!-- I can write as many script tag as I want -->
-        <script></script>
+        <script>
+            var x; //variable declartion
+            let y = 40;  //variable declaration and initialization
+
+            // <--- double slashes are knows as comments in javasctipt
+            // comments are not executed by the browser
+
+            x = 50; // Initialization
+            
+            let z; //variable declaration
+             
+            z = x + y;// We can have more than one operator in a line 
+            console.log(z);
+        </script>
+        <script>
+            const a=80;// Declaration and Initialization at the same time is must in creating variable using const
+            console.log(x+z);
+        </script>
         <script src="/js/script.js"></script>
     </body>
 </html>
